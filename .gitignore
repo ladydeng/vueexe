@@ -1,0 +1,19 @@
+# 忽略所有 .a 文件
+*.a
+node_modules
+
+# 但是 lib.a 文件除外
+!lib.a
+
+# 仅仅忽略项目根目录下的 TODO 文件，不包括 subdir/TODO
+/TODO
+
+# 忽略 build/ 目录下的所有文件
+智慧党建/
+智慧党建大屏/
+
+# 忽略 doc/notes.txt 文件，但不包括 doc/server/arch.txt 文件
+doc/*.txt
+
+# 忽略所有 .pdf 文件在 doc/ 目录下以及子目录下
+doc/**/*.pdf
