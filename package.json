@@ -9,8 +9,7 @@
   "scripts": {
     "start": "electron .",
     "build-icon": "electron-icon-builder --input=./public/icon.png --output=public --flatten",
-    "packager": "electron-packager . 智慧党建 --out 智慧党建 --arch=x64 --overwrite --ignore=node_modules --icon=./public/favicon.ico",
-    "package":"electron-packager . 智慧党建 --platform=win32 --arch=x64 --icon=public/favicon.ico --out=./out --asar --app-version=1.0.0 --overwrite --ignore=node_modules"
+    "packager": "electron-packager . 测试打包 --out 测试打包 --arch=x64 --overwrite --ignore=node_modules --icon=./public/favicon.ico"
   },
   "devDependencies": {
     "electron": "^23.1.3",
