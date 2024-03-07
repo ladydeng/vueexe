@@ -9,7 +9,7 @@
   "scripts": {
     "start": "electron .",
     "build-icon": "electron-icon-builder --input=./public/icon.png --output=public --flatten",
-    "packager": "electron-packager . 测试打包 --out 测试打包 --arch=x64 --overwrite --ignore=node_modules --icon=./public/favicon.ico"
+    "packager": "electron-packager . 智慧大屏 --out 智慧大屏 --arch=x64 --overwrite --ignore=node_modules --icon=./public/favicon.ico"
   },
   "devDependencies": {
     "electron": "^23.1.3",
